@@ -3,7 +3,8 @@
     "browserName": "chrome",
     "chromeOptions": {
       "args": [
-        "--start-maximized"
+        "--start-maximized",
+         "--no-sandbox"
       ],
       "prefs": {
         "profile.default_content_setting_values.cookies": 1,
